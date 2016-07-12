@@ -15,11 +15,11 @@ var options = {
     
     headers: { //We can define headers too
         'Content-Type': 'application/json',
-        'Ocp-Apim-Subscription-Key':'key'
+        'Ocp-Apim-Subscription-Key':'5f99789bf19f45e2b6c19b6264d3ecf9'
     },
     
-    body: "{'url':'url'}",
-};
+    body: "{'url':'https://kuverabucket.s3.amazonaws.com/23t08w8un5dk5tw55uj5johbutvcfxsbslnl95qt03d51k6cph_IMG_20160613_201710_1465829267634.jpg'}",
+    };
 function callback(error, response, body){
     if(error) {
         console.log(error);
